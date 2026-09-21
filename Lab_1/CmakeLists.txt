@@ -6,7 +6,10 @@ project(Lab_1)
 add_executable(Lab_1 
     main.cpp
 
-     "src/linkedList/linked_list.h"
+     "src/DoubleLinkedList/DoubleLinkedList.h"
+     "src/DynamicArray/DynamicArray.h"
+     "src/Stack/Stack.h"
+     "src/ShuntingYard/ShuntingYard.h"
 
 )
 
