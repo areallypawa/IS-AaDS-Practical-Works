@@ -10,8 +10,8 @@ add_executable(Lab_1
      "src/DynamicArray/DynamicArray.h"
      "src/Stack/Stack.h"
      "src/ShuntingYard/ShuntingYard.h"
-
-)
+     
+ "src/Menu/Menu.h" "src/Menu/Menu.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Lab_1 PROPERTY CXX_STANDARD 20)
