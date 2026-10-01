@@ -1,5 +1,3 @@
-# 🌸 Course Work — Лабораторные работы
-
 <div align="center">
   
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/72966895-509d-4ead-9831-7af93c0a16dc" />
