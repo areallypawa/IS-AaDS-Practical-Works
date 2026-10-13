@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(Course_Work)
+
+# Добавьте источник в исполняемый файл этого проекта.
+add_executable(Course_Work
+    main.cpp
+ "src/QuickSort/QuickSort.cpp" "src/QuickSort/QuickSort.h" 
+ 
+ "src/DSU/DSU.h" "src/DSU/DSU.cpp" 
+ 
+ "src/Edge/Edge.h" 
+ 
+ "src/GraphTraversal/GraphTraversal.h" "src/GraphTraversal/GraphTraversal.cpp" 
+ 
+ "src/menu/menu.h" "src/menu/menu.cpp")
+
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET Course_Work PROPERTY CXX_STANDARD 20)
+endif()
